@@ -1,1 +1,18 @@
-{ "grades": [], "attendance": [] }
+{
+  "grades": [
+    {"subject": "Math", "score": 85, "neededToPass": 5},
+    {"subject": "Science", "score": 90, "neededToPass": 0},
+    {"subject": "English", "score": 78, "neededToPass": 12}
+  ],
+  "attendance": 85,
+  "schedule": [
+    {"day": "Monday", "classes": "Math 9AM, Science 11AM"},
+    {"day": "Tuesday", "classes": "English 10AM, AI 1PM"}
+  ],
+  "events": [
+    {"event": "Exam Prep Workshop", "date": "Sept 16"},
+    {"event": "AI Seminar", "date": "Sept 18"}
+  ],
+  "feedback": ["I love the class!", "Struggling with math."],
+  "recommendations": ["Study AI resources", "Practice math problems"]
+}
